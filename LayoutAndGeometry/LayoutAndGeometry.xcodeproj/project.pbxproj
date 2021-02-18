@@ -12,6 +12,7 @@
 		55C7AF6425DDA47100C833A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C7AF6325DDA47100C833A8 /* Assets.xcassets */; };
 		55C7AF6725DDA47100C833A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C7AF6625DDA47100C833A8 /* Preview Assets.xcassets */; };
 		55C7AF7025DDF5E300C833A8 /* LayoutFunctionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF6F25DDF5E300C833A8 /* LayoutFunctionalView.swift */; };
+		55C7AF7325DDF83D00C833A8 /* AlignmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7225DDF83D00C833A8 /* AlignmentExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		55C7AF6625DDA47100C833A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55C7AF6825DDA47100C833A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C7AF6F25DDF5E300C833A8 /* LayoutFunctionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutFunctionalView.swift; sourceTree = "<group>"; };
+		55C7AF7225DDF83D00C833A8 /* AlignmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				55C7AF6825DDA47100C833A8 /* Info.plist */,
 				55C7AF6525DDA47100C833A8 /* Preview Content */,
 				55C7AF6F25DDF5E300C833A8 /* LayoutFunctionalView.swift */,
+				55C7AF7225DDF83D00C833A8 /* AlignmentExampleView.swift */,
 			);
 			path = LayoutAndGeometry;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				55C7AF6225DDA46C00C833A8 /* ContentView.swift in Sources */,
 				55C7AF7025DDF5E300C833A8 /* LayoutFunctionalView.swift in Sources */,
 				55C7AF6025DDA46C00C833A8 /* LayoutAndGeometryApp.swift in Sources */,
+				55C7AF7325DDF83D00C833A8 /* AlignmentExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
