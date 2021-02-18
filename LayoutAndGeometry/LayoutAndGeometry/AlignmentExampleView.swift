@@ -10,20 +10,27 @@ import SwiftUI
 struct AlignmentExampleView: View {
     var body: some View {
         VStack {
-            Text("Resistance is futile")
-                .frame(width: 300, height: 300, alignment: .topLeading)
-            // alignment with lastTextBaseline will  ensure the text is aligned
-            // on the baseline of the last text element left to right
-            HStack(alignment: .lastTextBaseline) {
-                Text("Live")
-                Text("long")
-                    .font(.subheadline)
-                Text("and")
-                    .font(.title)
-                Text("prosper")
-                    .font(.largeTitle)
+        VStack(alignment: .leading) {
+            Text("May")
+                .alignmentGuide(.leading) {
+                    d in d[.trailing]
+                }
+            Text("The Force be with you")
+        }
+        .background(Color.red)
+        .frame(width:300, height: 200)
+        .background(Color.gray)
+            VStack(alignment: .leading) {
+                ForEach(0..<10) { i in
+                    Text("Hello")
+                        .alignmentGuide(.leading) { _ in
+                            CGFloat(i) * -15
+                        }
+                }
             }
-            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+            .background(Color.green)
+            .frame(width: 300, height: 300)
+            .background(Color.orange)
         }
     }
 }
