@@ -15,6 +15,7 @@
 		55C7AF7325DDF83D00C833A8 /* AlignmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7225DDF83D00C833A8 /* AlignmentExampleView.swift */; };
 		55C7AF7625DDFCB300C833A8 /* CustomAlignmentExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7525DDFCB300C833A8 /* CustomAlignmentExampleView.swift */; };
 		55C7AF7925DF425000C833A8 /* AbsolutePositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7825DF425000C833A8 /* AbsolutePositionExampleView.swift */; };
+		55C7AF7C25DF441C00C833A8 /* GeometryReaderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7B25DF441C00C833A8 /* GeometryReaderExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		55C7AF7225DDF83D00C833A8 /* AlignmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentExampleView.swift; sourceTree = "<group>"; };
 		55C7AF7525DDFCB300C833A8 /* CustomAlignmentExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentExampleView.swift; sourceTree = "<group>"; };
 		55C7AF7825DF425000C833A8 /* AbsolutePositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositionExampleView.swift; sourceTree = "<group>"; };
+		55C7AF7B25DF441C00C833A8 /* GeometryReaderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				55C7AF7225DDF83D00C833A8 /* AlignmentExampleView.swift */,
 				55C7AF7525DDFCB300C833A8 /* CustomAlignmentExampleView.swift */,
 				55C7AF7825DF425000C833A8 /* AbsolutePositionExampleView.swift */,
+				55C7AF7B25DF441C00C833A8 /* GeometryReaderExampleView.swift */,
 			);
 			path = LayoutAndGeometry;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				55C7AF7625DDFCB300C833A8 /* CustomAlignmentExampleView.swift in Sources */,
 				55C7AF6225DDA46C00C833A8 /* ContentView.swift in Sources */,
 				55C7AF7025DDF5E300C833A8 /* LayoutFunctionalView.swift in Sources */,
+				55C7AF7C25DF441C00C833A8 /* GeometryReaderExampleView.swift in Sources */,
 				55C7AF6025DDA46C00C833A8 /* LayoutAndGeometryApp.swift in Sources */,
 				55C7AF7325DDF83D00C833A8 /* AlignmentExampleView.swift in Sources */,
 				55C7AF7925DF425000C833A8 /* AbsolutePositionExampleView.swift in Sources */,
