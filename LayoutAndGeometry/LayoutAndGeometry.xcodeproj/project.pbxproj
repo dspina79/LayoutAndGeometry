@@ -17,6 +17,7 @@
 		55C7AF7925DF425000C833A8 /* AbsolutePositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7825DF425000C833A8 /* AbsolutePositionExampleView.swift */; };
 		55C7AF7C25DF441C00C833A8 /* GeometryReaderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7B25DF441C00C833A8 /* GeometryReaderExampleView.swift */; };
 		55C7AF7F25DF494E00C833A8 /* ScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF7E25DF494E00C833A8 /* ScrollEffectView.swift */; };
+		55C7AF8225DF7C2800C833A8 /* GeoPlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C7AF8125DF7C2700C833A8 /* GeoPlaygroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		55C7AF7825DF425000C833A8 /* AbsolutePositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositionExampleView.swift; sourceTree = "<group>"; };
 		55C7AF7B25DF441C00C833A8 /* GeometryReaderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExampleView.swift; sourceTree = "<group>"; };
 		55C7AF7E25DF494E00C833A8 /* ScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollEffectView.swift; sourceTree = "<group>"; };
+		55C7AF8125DF7C2700C833A8 /* GeoPlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPlaygroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				55C7AF7825DF425000C833A8 /* AbsolutePositionExampleView.swift */,
 				55C7AF7B25DF441C00C833A8 /* GeometryReaderExampleView.swift */,
 				55C7AF7E25DF494E00C833A8 /* ScrollEffectView.swift */,
+				55C7AF8125DF7C2700C833A8 /* GeoPlaygroundView.swift */,
 			);
 			path = LayoutAndGeometry;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				55C7AF7025DDF5E300C833A8 /* LayoutFunctionalView.swift in Sources */,
 				55C7AF7C25DF441C00C833A8 /* GeometryReaderExampleView.swift in Sources */,
 				55C7AF6025DDA46C00C833A8 /* LayoutAndGeometryApp.swift in Sources */,
+				55C7AF8225DF7C2800C833A8 /* GeoPlaygroundView.swift in Sources */,
 				55C7AF7325DDF83D00C833A8 /* AlignmentExampleView.swift in Sources */,
 				55C7AF7925DF425000C833A8 /* AbsolutePositionExampleView.swift in Sources */,
 			);
