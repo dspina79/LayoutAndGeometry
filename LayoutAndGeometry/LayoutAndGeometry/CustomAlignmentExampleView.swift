@@ -19,8 +19,19 @@ extension VerticalAlignment {
     static let midAccountAndName = VerticalAlignment(MidAccountAndName.self)
 }
 
+extension HorizontalAlignment {
+    enum CenterAccountName: AlignmentID {
+        static func defaultValue(in context: ViewDimensions) -> CGFloat {
+            context[HorizontalAlignment.center]
+        }
+    }
+    
+    static let centerAccountName = HorizontalAlignment(CenterAccountName.self)
+}
+
 struct CustomAlignmentExampleView: View {
     var body: some View {
+        VStack {
         HStack(alignment: .midAccountAndName) {
             VStack {
                 Text("@davespina")
@@ -44,6 +55,14 @@ struct CustomAlignmentExampleView: View {
                     .font(.largeTitle)
             }
             Text("Hello!!")
+        }
+            VStack(alignment: .centerAccountName) {
+                Text("Hello")
+                Text("World")
+                    .alignmentGuide(.centerAccountName) { d in
+                        d[.trailing]
+                    }
+            }
         }
     }
 }
